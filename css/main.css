@@ -1,0 +1,190 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://lostandtaken.com/wp-content/uploads/edd/2016/02/20th-century-brown-vintage-paper-8.jpg");
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  background-color: rgb(255,255,255,0.4);
+  margin: 20px auto;
+  width: 390px;
+  height: 390px;
+}
+
+body h1 {
+  text-align: center;
+  font-family: 'Mogra', cursive;
+  color: #171717;
+  font-size: 50px;
+  margin-top: 18px;
+}
+
+p {
+  font-family: 'Permanent Marker', 'Arial Black';
+  font-size: 115px;
+  color: #1f1f1f;
+  margin-top: -25px;
+  padding: 0 0 0 25px;
+}
+
+#box0,
+#box1,
+#box3,
+#box4,
+#box6,
+#box7 {
+  float: left;
+}
+
+#box0,
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box8 {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  margin-bottom: -4px;
+}
+
+#box0:hover,
+#box1:hover,
+#box2:hover,
+#box3:hover,
+#box4:hover,
+#box5:hover,
+#box6:hover,
+#box7:hover,
+#box8:hover {
+  cursor: pointer;
+}
+
+#box0 {
+  border-right: 2px solid #171717;
+  border-bottom: 2px solid #171717;
+}
+
+#box1 {
+  border-left: 2px solid #171717;
+  border-bottom: 2px solid #171717;
+  border-right: 2px solid #171717;
+}
+
+#box2 {
+  border-left: 2px solid #171717;
+  border-bottom: 2px solid #171717;
+}
+
+#box3 {
+  border-top: 2px solid #171717;
+  border-right: 2px solid #171717;
+  border-bottom: 2px solid #171717;
+}
+
+#box4 {
+  border: 2px solid #171717;
+}
+
+#box5 {
+  border-top: 2px solid #171717;
+  border-left: 2px solid #171717;
+  border-bottom: 2px solid #171717;
+}
+
+#box6 {
+  border-top: 2px solid #171717;
+  border-right: 2px solid #171717;
+}
+
+#box7 {
+  border-left: 2px solid #171717;
+  border-top: 2px solid #171717;
+  border-right: 2px solid #171717;
+}
+
+#box8 {
+  border-left: 2px solid #171717;
+  border-top: 2px solid #171717;
+}
+
+/* pop up ***************************/
+
+.popup-container,
+.playerWin-container,
+.aiWin-container {
+  positon: relative;
+  z-index: 10;
+}
+
+.popup {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/89/e6/88/89e6881dd87e148232cf1a78a3b84559.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 105px auto;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Permanent Marker', 'Arial Black';
+  font-size: 32px;
+  color: #171717;
+}
+
+span {
+  font-family: 'Permanent Marker', 'Arial Black';
+  color: #1f1f1f;
+}
+
+/* option ***************************/
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Permanent Marker', 'Arial Black';
+  color: #1f1f1f;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+#xOption,
+#oOption {
+  font-size: 100px;
+}
+
+#playerResetButton,
+#aiResetButton {
+  font-size: 25px;
+}
+
+li:hover {
+  color: #555;
+}
+
+li:active {
+  color: #fff;
+}
